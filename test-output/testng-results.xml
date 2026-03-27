@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-27T12:23:47 IST" name="Automation Suite" finished-at="2026-03-27T12:24:15 IST" duration-ms="27742">
+    <groups>
+    </groups>
+    <test started-at="2026-03-27T12:23:47 IST" name="Login Test" finished-at="2026-03-27T12:24:15 IST" duration-ms="27742">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@4b20ca2b]" started-at="2026-03-27T12:23:49 IST" name="setup" finished-at="2026-03-27T12:24:01 IST" duration-ms="11983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@4b20ca2b]" started-at="2026-03-27T12:24:01 IST" name="loginTest" data-provider="loginData" finished-at="2026-03-27T12:24:02 IST" duration-ms="1429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@4b20ca2b]" started-at="2026-03-27T12:24:02 IST" name="tearDown" finished-at="2026-03-27T12:24:03 IST" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@4b20ca2b]" started-at="2026-03-27T12:24:03 IST" name="setup" finished-at="2026-03-27T12:24:13 IST" duration-ms="10062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@4b20ca2b]" started-at="2026-03-27T12:24:13 IST" name="loginTest" data-provider="loginData" finished-at="2026-03-27T12:24:14 IST" duration-ms="1288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrong]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@4b20ca2b]" started-at="2026-03-27T12:24:14 IST" name="tearDown" finished-at="2026-03-27T12:24:15 IST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Automation Suite -->
+</testng-results>

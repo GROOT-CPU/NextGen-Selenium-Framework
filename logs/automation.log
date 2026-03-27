@@ -1,0 +1,342 @@
+2026-03-27 11:42:19 INFO  test.LoginTest - Reading Login Data from Excel
+2026-03-27 11:42:20 INFO  base.BaseTest -  Test Execution Started
+2026-03-27 11:42:23 INFO  base.BaseTest - Browser Launched
+2026-03-27 11:42:33 INFO  base.BaseTest - Navigated to URL
+2026-03-27 11:42:33 INFO  listeners.TestListener -  Test Started: loginTest
+2026-03-27 11:42:33 INFO  test.LoginTest - Starting Login Test
+2026-03-27 11:42:33 INFO  test.LoginTest - Username Used: tomsmith
+2026-03-27 11:42:34 INFO  test.LoginTest - Entered Username
+2026-03-27 11:42:34 INFO  test.LoginTest - Entered Password
+2026-03-27 11:42:35 INFO  test.LoginTest - Clicked Login Button
+2026-03-27 11:42:35 INFO  test.LoginTest - Waiting for Login Message
+2026-03-27 11:42:35 INFO  test.LoginTest - Application Message: You logged into a secure area!
+×
+2026-03-27 11:42:35 INFO  test.LoginTest -  Valid Login Passed
+2026-03-27 11:42:35 INFO  test.LoginTest - Login Test Completed
+2026-03-27 11:42:35 INFO  listeners.TestListener -  Test Passed: loginTest
+2026-03-27 11:42:36 INFO  base.BaseTest - Browser Closed
+2026-03-27 11:42:36 INFO  base.BaseTest -  Test Execution Started
+2026-03-27 11:42:38 INFO  base.BaseTest - Browser Launched
+2026-03-27 11:42:48 INFO  base.BaseTest - Navigated to URL
+2026-03-27 11:42:48 INFO  listeners.TestListener -  Test Started: loginTest
+2026-03-27 11:42:48 INFO  test.LoginTest - Starting Login Test
+2026-03-27 11:42:48 INFO  test.LoginTest - Username Used: wrong
+2026-03-27 11:42:49 INFO  test.LoginTest - Entered Username
+2026-03-27 11:42:49 INFO  test.LoginTest - Entered Password
+2026-03-27 11:42:50 INFO  test.LoginTest - Clicked Login Button
+2026-03-27 11:42:50 INFO  test.LoginTest - Waiting for Login Message
+2026-03-27 11:42:50 INFO  test.LoginTest - Application Message: Your username is invalid!
+×
+2026-03-27 11:42:50 INFO  test.LoginTest -  Invalid Login Tested
+2026-03-27 11:42:50 INFO  test.LoginTest - Login Test Completed
+2026-03-27 11:42:50 INFO  listeners.TestListener -  Test Passed: loginTest
+2026-03-27 11:42:50 INFO  base.BaseTest - Browser Closed
+2026-03-27 12:05:07 INFO  test.LoginTest - Reading Login Data from Excel
+2026-03-27 12:05:07 INFO  utils.ExcelUtil - Reading Excel file from path: D:\AUTOMAATION-TESTING-MAVEN\AUTOMATIONTESTING-MAVEN1/src/test/resources/testdata/LoginData.xlsx
+2026-03-27 12:05:08 INFO  utils.ExcelUtil - Total Rows: 3
+2026-03-27 12:05:08 INFO  utils.ExcelUtil - Total Columns: 3
+2026-03-27 12:05:08 INFO  utils.ExcelUtil - Excel data successfully loaded
+2026-03-27 12:05:08 INFO  base.BaseTest -  Test Execution Started
+2026-03-27 12:05:32 INFO  base.BaseTest - Browser Launched
+2026-03-27 12:05:33 INFO  utils.ConfigReader - Loading config.properties file...
+2026-03-27 12:05:33 INFO  utils.ConfigReader -  config.properties loaded successfully
+2026-03-27 12:05:33 INFO  utils.ConfigReader - Reading property -> url : https://the-internet.herokuapp.com/login
+2026-03-27 12:05:41 INFO  base.BaseTest - Navigated to URL
+2026-03-27 12:05:41 INFO  listeners.TestListener -  Test Started: loginTest
+2026-03-27 12:05:41 INFO  test.LoginTest - Starting Login Test
+2026-03-27 12:05:41 INFO  test.LoginTest - Username Used: tomsmith
+2026-03-27 12:05:41 INFO  test.LoginTest - Entered Username
+2026-03-27 12:05:41 INFO  test.LoginTest - Entered Password
+2026-03-27 12:05:42 INFO  test.LoginTest - Clicked Login Button
+2026-03-27 12:05:42 INFO  utils.WaitUtil - Waiting for element visibility: By.id: flash
+2026-03-27 12:05:42 INFO  test.LoginTest - Waiting for Login Message
+2026-03-27 12:05:42 INFO  test.LoginTest - Application Message: You logged into a secure area!
+×
+2026-03-27 12:05:42 INFO  test.LoginTest - Valid Login Passed
+2026-03-27 12:05:42 INFO  test.LoginTest - Login Test Completed
+2026-03-27 12:05:42 INFO  listeners.TestListener -  Test Passed: loginTest
+2026-03-27 12:05:43 INFO  base.BaseTest - Browser Closed
+2026-03-27 12:05:43 INFO  base.BaseTest -  Test Execution Started
+2026-03-27 12:05:46 INFO  base.BaseTest - Browser Launched
+2026-03-27 12:05:46 INFO  utils.ConfigReader - Reading property -> url : https://the-internet.herokuapp.com/login
+2026-03-27 12:05:52 INFO  base.BaseTest - Navigated to URL
+2026-03-27 12:05:52 INFO  listeners.TestListener -  Test Started: loginTest
+2026-03-27 12:05:52 INFO  test.LoginTest - Starting Login Test
+2026-03-27 12:05:52 INFO  test.LoginTest - Username Used: wrong
+2026-03-27 12:05:52 INFO  test.LoginTest - Entered Username
+2026-03-27 12:05:52 INFO  test.LoginTest - Entered Password
+2026-03-27 12:05:54 INFO  test.LoginTest - Clicked Login Button
+2026-03-27 12:05:54 INFO  utils.WaitUtil - Waiting for element visibility: By.id: flash
+2026-03-27 12:05:54 INFO  test.LoginTest - Waiting for Login Message
+2026-03-27 12:05:54 INFO  test.LoginTest - Application Message: Your username is invalid!
+×
+2026-03-27 12:05:54 INFO  test.LoginTest - Invalid Login Tested
+2026-03-27 12:05:54 INFO  test.LoginTest - Login Test Completed
+2026-03-27 12:05:54 INFO  listeners.TestListener -  Test Passed: loginTest
+2026-03-27 12:05:54 INFO  base.BaseTest - Browser Closed
+2026-03-27 12:09:28 INFO  test.LoginTest - Reading Login Data from Excel
+2026-03-27 12:09:28 INFO  utils.ExcelUtil - Reading Excel file from path: D:\AUTOMAATION-TESTING-MAVEN\AUTOMATIONTESTING-MAVEN1/src/test/resources/testdata/LoginData.xlsx
+2026-03-27 12:09:29 INFO  utils.ExcelUtil - Total Rows: 3
+2026-03-27 12:09:29 INFO  utils.ExcelUtil - Total Columns: 3
+2026-03-27 12:09:29 INFO  utils.ExcelUtil - Excel data successfully loaded
+2026-03-27 12:09:29 INFO  base.BaseTest -  Test Execution Started
+2026-03-27 12:09:32 INFO  base.BaseTest - Browser Launched
+2026-03-27 12:09:33 INFO  utils.ConfigReader - Loading config.properties file...
+2026-03-27 12:09:33 INFO  utils.ConfigReader -  config.properties loaded successfully
+2026-03-27 12:09:33 INFO  utils.ConfigReader - Reading property -> url : https://the-internet.herokuapp.com/login
+2026-03-27 12:09:54 INFO  base.BaseTest - Navigated to URL
+2026-03-27 12:09:54 INFO  listeners.TestListener -  Test Started: loginTest
+2026-03-27 12:09:54 INFO  test.LoginTest - Starting Login Test
+2026-03-27 12:09:54 INFO  test.LoginTest - Username Used: tomsmith
+2026-03-27 12:09:54 INFO  test.LoginTest - Entered Username
+2026-03-27 12:09:54 INFO  test.LoginTest - Entered Password
+2026-03-27 12:09:55 INFO  test.LoginTest - Clicked Login Button
+2026-03-27 12:09:55 INFO  utils.WaitUtil - Waiting for element visibility: By.id: flash
+2026-03-27 12:09:55 INFO  test.LoginTest - Waiting for Login Message
+2026-03-27 12:09:55 INFO  test.LoginTest - Application Message: You logged into a secure area!
+×
+2026-03-27 12:09:55 INFO  test.LoginTest - Valid Login Passed
+2026-03-27 12:09:55 INFO  test.LoginTest - Login Test Completed
+2026-03-27 12:09:55 INFO  listeners.TestListener -  Test Passed: loginTest
+2026-03-27 12:09:56 INFO  base.BaseTest - Browser Closed
+2026-03-27 12:09:56 INFO  base.BaseTest -  Test Execution Started
+2026-03-27 12:09:58 INFO  base.BaseTest - Browser Launched
+2026-03-27 12:09:58 INFO  utils.ConfigReader - Reading property -> url : https://the-internet.herokuapp.com/login
+2026-03-27 12:10:14 INFO  base.BaseTest - Navigated to URL
+2026-03-27 12:10:14 INFO  listeners.TestListener -  Test Started: loginTest
+2026-03-27 12:10:14 INFO  test.LoginTest - Starting Login Test
+2026-03-27 12:10:14 INFO  test.LoginTest - Username Used: wrong
+2026-03-27 12:10:14 INFO  test.LoginTest - Entered Username
+2026-03-27 12:10:14 INFO  test.LoginTest - Entered Password
+2026-03-27 12:10:15 INFO  test.LoginTest - Clicked Login Button
+2026-03-27 12:10:15 INFO  utils.WaitUtil - Waiting for element visibility: By.id: flash
+2026-03-27 12:10:15 INFO  test.LoginTest - Waiting for Login Message
+2026-03-27 12:10:15 INFO  test.LoginTest - Application Message: Your username is invalid!
+×
+2026-03-27 12:10:15 INFO  test.LoginTest - Invalid Login Tested
+2026-03-27 12:10:15 INFO  test.LoginTest - Login Test Completed
+2026-03-27 12:10:15 INFO  listeners.TestListener -  Test Passed: loginTest
+2026-03-27 12:10:16 INFO  base.BaseTest - Browser Closed
+2026-03-27 12:12:44 INFO  test.LoginTest - Reading Login Data from Excel
+2026-03-27 12:12:44 INFO  utils.ExcelUtil - Reading Excel file from path: D:\AUTOMAATION-TESTING-MAVEN\AUTOMATIONTESTING-MAVEN1/src/test/resources/testdata/LoginData.xlsx
+2026-03-27 12:12:45 INFO  utils.ExcelUtil - Total Rows: 3
+2026-03-27 12:12:45 INFO  utils.ExcelUtil - Total Columns: 3
+2026-03-27 12:12:45 INFO  utils.ExcelUtil - Excel data successfully loaded
+2026-03-27 12:12:45 INFO  base.BaseTest -  Test Execution Started
+2026-03-27 12:12:49 INFO  base.BaseTest - Browser Launched
+2026-03-27 12:12:49 INFO  utils.ConfigReader - Loading config.properties file...
+2026-03-27 12:12:49 INFO  utils.ConfigReader -  config.properties loaded successfully
+2026-03-27 12:12:49 INFO  utils.ConfigReader - Reading property -> url : https://the-internet.herokuapp.com/login
+2026-03-27 12:13:26 INFO  base.BaseTest - Navigated to URL
+2026-03-27 12:13:26 INFO  test.LoginTest - Starting Login Test
+2026-03-27 12:13:26 INFO  test.LoginTest - Username Used: tomsmith
+2026-03-27 12:13:26 INFO  base.BaseTest - Browser Closed
+2026-03-27 12:13:26 INFO  base.BaseTest -  Test Execution Started
+2026-03-27 12:13:28 INFO  base.BaseTest - Browser Launched
+2026-03-27 12:13:28 INFO  utils.ConfigReader - Reading property -> url : https://the-internet.herokuapp.com/login
+2026-03-27 12:13:32 INFO  base.BaseTest - Navigated to URL
+2026-03-27 12:13:32 INFO  test.LoginTest - Starting Login Test
+2026-03-27 12:13:32 INFO  test.LoginTest - Username Used: wrong
+2026-03-27 12:13:38 INFO  test.LoginTest - Entered Username
+2026-03-27 12:13:38 INFO  test.LoginTest - Entered Password
+2026-03-27 12:13:39 INFO  test.LoginTest - Clicked Login Button
+2026-03-27 12:13:39 INFO  utils.WaitUtil - Waiting for element visibility: By.id: flash
+2026-03-27 12:13:39 INFO  test.LoginTest - Waiting for Login Message
+2026-03-27 12:13:39 INFO  test.LoginTest - Application Message: Your username is invalid!
+×
+2026-03-27 12:13:39 INFO  test.LoginTest - Invalid Login Tested
+2026-03-27 12:13:39 INFO  test.LoginTest - Login Test Completed
+2026-03-27 12:13:40 INFO  base.BaseTest - Browser Closed
+2026-03-27 12:16:28 INFO  test.LoginTest - Reading Login Data from Excel
+2026-03-27 12:16:28 INFO  utils.ExcelUtil - Reading Excel file from path: D:\AUTOMAATION-TESTING-MAVEN\AUTOMATIONTESTING-MAVEN1/src/test/resources/testdata/LoginData.xlsx
+2026-03-27 12:16:29 INFO  utils.ExcelUtil - Total Rows: 3
+2026-03-27 12:16:29 INFO  utils.ExcelUtil - Total Columns: 3
+2026-03-27 12:16:29 INFO  utils.ExcelUtil - Excel data successfully loaded
+2026-03-27 12:16:29 INFO  base.BaseTest -  Test Execution Started
+2026-03-27 12:16:32 INFO  base.BaseTest - Browser Launched
+2026-03-27 12:16:32 INFO  utils.ConfigReader - Loading config.properties file...
+2026-03-27 12:16:32 INFO  utils.ConfigReader -  config.properties loaded successfully
+2026-03-27 12:16:32 INFO  utils.ConfigReader - Reading property -> url : https://the-internet.herokuapp.com/login
+2026-03-27 12:16:40 INFO  base.BaseTest - Navigated to URL
+2026-03-27 12:16:40 INFO  listeners.TestListener -  Test Started: loginTest
+2026-03-27 12:16:41 INFO  test.LoginTest - Starting Login Test
+2026-03-27 12:16:41 INFO  test.LoginTest - Username Used: tomsmith
+2026-03-27 12:16:41 INFO  test.LoginTest - Entered Username
+2026-03-27 12:16:41 INFO  test.LoginTest - Entered Password
+2026-03-27 12:16:42 INFO  test.LoginTest - Clicked Login Button
+2026-03-27 12:16:42 INFO  utils.WaitUtil - Waiting for element visibility: By.id: flash
+2026-03-27 12:16:42 INFO  test.LoginTest - Waiting for Login Message
+2026-03-27 12:16:42 INFO  test.LoginTest - Application Message: You logged into a secure area!
+×
+2026-03-27 12:16:42 ERROR listeners.TestListener -  Test Failed: loginTest
+2026-03-27 12:16:42 ERROR listeners.TestListener - Failure Reason: 
+java.lang.AssertionError: Valid login failed! expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at test.LoginTest.loginTest(LoginTest.java:65) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-03-27 12:16:42 INFO  utils.ScreenshotUtil - Screenshot Saved: D:\AUTOMAATION-TESTING-MAVEN\AUTOMATIONTESTING-MAVEN1/Screenshots/loginTest_20260327_121642.png
+2026-03-27 12:16:42 INFO  listeners.TestListener -  Screenshot captured for failed test: loginTest
+2026-03-27 12:16:43 INFO  base.BaseTest - Browser Closed
+2026-03-27 12:16:43 INFO  base.BaseTest -  Test Execution Started
+2026-03-27 12:16:45 INFO  base.BaseTest - Browser Launched
+2026-03-27 12:16:45 INFO  utils.ConfigReader - Reading property -> url : https://the-internet.herokuapp.com/login
+2026-03-27 12:16:57 INFO  base.BaseTest - Navigated to URL
+2026-03-27 12:16:57 INFO  listeners.TestListener -  Test Started: loginTest
+2026-03-27 12:16:57 INFO  test.LoginTest - Starting Login Test
+2026-03-27 12:16:57 INFO  test.LoginTest - Username Used: wrong
+2026-03-27 12:16:57 INFO  test.LoginTest - Entered Username
+2026-03-27 12:16:58 INFO  test.LoginTest - Entered Password
+2026-03-27 12:16:59 INFO  test.LoginTest - Clicked Login Button
+2026-03-27 12:16:59 INFO  utils.WaitUtil - Waiting for element visibility: By.id: flash
+2026-03-27 12:17:00 INFO  test.LoginTest - Waiting for Login Message
+2026-03-27 12:17:00 INFO  test.LoginTest - Application Message: Your username is invalid!
+×
+2026-03-27 12:17:00 INFO  test.LoginTest - Invalid Login Tested
+2026-03-27 12:17:00 INFO  test.LoginTest - Login Test Completed
+2026-03-27 12:17:00 INFO  listeners.TestListener -  Test Passed: loginTest
+2026-03-27 12:17:02 INFO  base.BaseTest - Browser Closed
+2026-03-27 12:21:23 INFO  test.LoginTest - Reading Login Data from Excel
+2026-03-27 12:21:23 INFO  utils.ExcelUtil - Reading Excel file from path: D:\AUTOMAATION-TESTING-MAVEN\AUTOMATIONTESTING-MAVEN1/src/test/resources/testdata/LoginData.xlsx
+2026-03-27 12:21:24 INFO  utils.ExcelUtil - Total Rows: 3
+2026-03-27 12:21:24 INFO  utils.ExcelUtil - Total Columns: 3
+2026-03-27 12:21:24 INFO  utils.ExcelUtil - Excel data successfully loaded
+2026-03-27 12:21:25 INFO  base.BaseTest -  Test Execution Started
+2026-03-27 12:21:30 INFO  base.BaseTest - Browser Launched
+2026-03-27 12:21:30 INFO  utils.ConfigReader - Loading config.properties file...
+2026-03-27 12:21:30 INFO  utils.ConfigReader -  config.properties loaded successfully
+2026-03-27 12:21:30 INFO  utils.ConfigReader - Reading property -> url : https://the-internet.herokuapp.com/login
+2026-03-27 12:21:37 INFO  base.BaseTest - Navigated to URL
+2026-03-27 12:21:37 INFO  listeners.TestListener -  Test Started: loginTest
+2026-03-27 12:21:37 INFO  test.LoginTest - Starting Login Test
+2026-03-27 12:21:37 INFO  test.LoginTest - Username Used: tomsmith
+2026-03-27 12:21:37 INFO  test.LoginTest - Entered Username
+2026-03-27 12:21:37 INFO  test.LoginTest - Entered Password
+2026-03-27 12:21:38 INFO  test.LoginTest - Clicked Login Button
+2026-03-27 12:21:38 INFO  utils.WaitUtil - Waiting for element visibility: By.id: flash
+2026-03-27 12:21:38 INFO  test.LoginTest - Waiting for Login Message
+2026-03-27 12:21:38 INFO  utils.WaitUtil - Waiting for element visibility: By.id: flash
+2026-03-27 12:21:38 INFO  test.LoginTest - Application Message: You logged into a secure area!
+2026-03-27 12:21:38 ERROR listeners.TestListener -  Test Failed: loginTest
+2026-03-27 12:21:38 ERROR listeners.TestListener - Failure Reason: 
+java.lang.AssertionError: Valid login failed! expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at test.LoginTest.loginTest(LoginTest.java:65) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-03-27 12:21:38 INFO  utils.ScreenshotUtil - Screenshot Saved: D:\AUTOMAATION-TESTING-MAVEN\AUTOMATIONTESTING-MAVEN1/Screenshots/loginTest_20260327_122138.png
+2026-03-27 12:21:38 INFO  listeners.TestListener -  Screenshot captured for failed test: loginTest
+2026-03-27 12:21:39 INFO  base.BaseTest - Browser Closed
+2026-03-27 12:21:39 INFO  base.BaseTest -  Test Execution Started
+2026-03-27 12:21:42 INFO  base.BaseTest - Browser Launched
+2026-03-27 12:21:42 INFO  utils.ConfigReader - Reading property -> url : https://the-internet.herokuapp.com/login
+2026-03-27 12:21:51 INFO  base.BaseTest - Navigated to URL
+2026-03-27 12:21:51 INFO  listeners.TestListener -  Test Started: loginTest
+2026-03-27 12:21:51 INFO  test.LoginTest - Starting Login Test
+2026-03-27 12:21:51 INFO  test.LoginTest - Username Used: wrong
+2026-03-27 12:21:51 INFO  test.LoginTest - Entered Username
+2026-03-27 12:21:51 INFO  test.LoginTest - Entered Password
+2026-03-27 12:21:52 INFO  test.LoginTest - Clicked Login Button
+2026-03-27 12:21:52 INFO  utils.WaitUtil - Waiting for element visibility: By.id: flash
+2026-03-27 12:21:52 INFO  test.LoginTest - Waiting for Login Message
+2026-03-27 12:21:52 INFO  utils.WaitUtil - Waiting for element visibility: By.id: flash
+2026-03-27 12:21:52 INFO  test.LoginTest - Application Message: Your username is invalid!
+2026-03-27 12:21:52 INFO  test.LoginTest - Invalid Login Tested
+2026-03-27 12:21:52 INFO  test.LoginTest - Login Test Completed
+2026-03-27 12:21:52 INFO  listeners.TestListener -  Test Passed: loginTest
+2026-03-27 12:21:52 INFO  base.BaseTest - Browser Closed
+2026-03-27 12:23:47 INFO  test.LoginTest - Reading Login Data from Excel
+2026-03-27 12:23:47 INFO  utils.ExcelUtil - Reading Excel file from path: D:\AUTOMAATION-TESTING-MAVEN\AUTOMATIONTESTING-MAVEN1/src/test/resources/testdata/LoginData.xlsx
+2026-03-27 12:23:49 INFO  utils.ExcelUtil - Total Rows: 3
+2026-03-27 12:23:49 INFO  utils.ExcelUtil - Total Columns: 3
+2026-03-27 12:23:49 INFO  utils.ExcelUtil - Excel data successfully loaded
+2026-03-27 12:23:49 INFO  base.BaseTest -  Test Execution Started
+2026-03-27 12:23:53 INFO  base.BaseTest - Browser Launched
+2026-03-27 12:23:53 INFO  utils.ConfigReader - Loading config.properties file...
+2026-03-27 12:23:53 INFO  utils.ConfigReader -  config.properties loaded successfully
+2026-03-27 12:23:53 INFO  utils.ConfigReader - Reading property -> url : https://the-internet.herokuapp.com/login
+2026-03-27 12:24:01 INFO  base.BaseTest - Navigated to URL
+2026-03-27 12:24:01 INFO  listeners.TestListener -  Test Started: loginTest
+2026-03-27 12:24:01 INFO  test.LoginTest - Starting Login Test
+2026-03-27 12:24:01 INFO  test.LoginTest - Username Used: tomsmith
+2026-03-27 12:24:01 INFO  test.LoginTest - Entered Username
+2026-03-27 12:24:01 INFO  test.LoginTest - Entered Password
+2026-03-27 12:24:02 INFO  test.LoginTest - Clicked Login Button
+2026-03-27 12:24:02 INFO  utils.WaitUtil - Waiting for element visibility: By.id: flash
+2026-03-27 12:24:02 INFO  test.LoginTest - Waiting for Login Message
+2026-03-27 12:24:02 INFO  utils.WaitUtil - Waiting for element visibility: By.id: flash
+2026-03-27 12:24:02 INFO  test.LoginTest - Application Message: You logged into a secure area!
+2026-03-27 12:24:02 INFO  test.LoginTest - Valid Login Passed
+2026-03-27 12:24:02 INFO  test.LoginTest - Login Test Completed
+2026-03-27 12:24:02 INFO  listeners.TestListener -  Test Passed: loginTest
+2026-03-27 12:24:03 INFO  base.BaseTest - Browser Closed
+2026-03-27 12:24:03 INFO  base.BaseTest -  Test Execution Started
+2026-03-27 12:24:05 INFO  base.BaseTest - Browser Launched
+2026-03-27 12:24:05 INFO  utils.ConfigReader - Reading property -> url : https://the-internet.herokuapp.com/login
+2026-03-27 12:24:13 INFO  base.BaseTest - Navigated to URL
+2026-03-27 12:24:13 INFO  listeners.TestListener -  Test Started: loginTest
+2026-03-27 12:24:13 INFO  test.LoginTest - Starting Login Test
+2026-03-27 12:24:13 INFO  test.LoginTest - Username Used: wrong
+2026-03-27 12:24:13 INFO  test.LoginTest - Entered Username
+2026-03-27 12:24:14 INFO  test.LoginTest - Entered Password
+2026-03-27 12:24:14 INFO  test.LoginTest - Clicked Login Button
+2026-03-27 12:24:14 INFO  utils.WaitUtil - Waiting for element visibility: By.id: flash
+2026-03-27 12:24:14 INFO  test.LoginTest - Waiting for Login Message
+2026-03-27 12:24:14 INFO  utils.WaitUtil - Waiting for element visibility: By.id: flash
+2026-03-27 12:24:14 INFO  test.LoginTest - Application Message: Your username is invalid!
+2026-03-27 12:24:14 INFO  test.LoginTest - Invalid Login Tested
+2026-03-27 12:24:14 INFO  test.LoginTest - Login Test Completed
+2026-03-27 12:24:14 INFO  listeners.TestListener -  Test Passed: loginTest
+2026-03-27 12:24:15 INFO  base.BaseTest - Browser Closed
